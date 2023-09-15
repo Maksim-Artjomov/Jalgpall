@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +8,10 @@ namespace Jalgpall
 {
     public class Ball
     {
-        public double X { get; private set; }
-        public double Y { get; private set; }
+        public double X { get; private set; } // Координата x
+        public double Y { get; private set; } // Координата y
 
-        private double _vx, _vy;
+        private double _vx, _vy; // расстояние
 
         private Game _game;
 
@@ -45,3 +45,4 @@ namespace Jalgpall
         }
 
     }
+}
