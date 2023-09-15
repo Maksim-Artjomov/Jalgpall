@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,9 +14,9 @@ namespace Jalgpall
             Height = height;
         }
 
-        public int Width { get; }
+        public int Width { get; } // Ширина стадиона
 
-        public int Height { get; }
+        public int Height { get; } // Высота стадиона
 
         public bool IsIn(double x, double y) // Метод для проверки нахождения игрока в пределах поля или вне его приделах
         {
